@@ -1,0 +1,66 @@
+.Modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #00000082;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ModalContainer {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  border-radius: 5px;
+  width: 70%;
+  height: 80%;
+}
+
+.ModalContainer .Modal-header {
+  background: white;
+  border-radius: 5px 5px 0 0;
+  position: relative;
+  padding: 13px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.ModalContainer .Modal-header .Title {
+  margin: 0;
+  width: 98%;
+  text-align: center;
+}
+.ModalContainer .Modal-header .close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+.ModalContainer .Modal-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  background: white;
+  border-radius: 5px;
+}
+.ModalContainer .Modal-Footer {
+  text-align: center;
+  height: 40px;
+  padding: 0 15px 15px 15px;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}

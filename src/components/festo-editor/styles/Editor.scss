@@ -1,0 +1,42 @@
+$white: #ffffff;
+
+.Editor {
+  font-size: 16px;
+  
+  &-header {
+    border-radius: .5em .5em 0 0;
+    padding: 16px;
+    background-color: #282a36;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+  }
+
+  &-dot {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: .5em;
+    background: $white;
+    cursor: pointer;
+
+    &--red {
+      background-color: #ff5e56;
+      &:hover {
+        background-color: darken(#ff5e56, 5%);
+      }
+    }
+    &--yellow {
+      background-color: #ffbd2d;
+      &:hover {
+        background-color: darken(#ffbd2d, 10%);
+      }
+    }
+    &--green {
+      background-color: #25c93f;
+      &:hover {
+        background-color: darken(#25c93f, 5%);
+      }
+    }
+  }
+}

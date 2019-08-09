@@ -1,0 +1,18 @@
+.FestoContainer {
+  font-size: 16px;
+  margin: 0 auto;
+  width: 80%;
+  
+  & .CodeMirror {
+    border-radius: 0 0 .5em .5em;
+  }
+}
+
+.btn {
+  width: 350px;
+  border-radius: 5px;
+  background: #00ec00;
+  font-size: 20px;
+  padding: 7px;
+  color: white;
+}
