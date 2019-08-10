@@ -1,8 +1,19 @@
-export const sample = 
-`const person = {
+export const sampleObj = 
+`const persona = {
   name: 'Pepe',
   age: 32
 }
 
-person.name = 'Jeje'
+function saludar({name}){
+	return 'Hola ' + name
+}
+`
+
+export const sample =
+`
+function sumar(a, b) {
+	return a + b
+}
+
+sumar(1, 2)
 `

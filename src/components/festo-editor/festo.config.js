@@ -1,0 +1,22 @@
+export const editorConfig = {
+  value: '',
+  theme: 'dracula',
+  extraKeys: {"Ctrl-Space": "autocomplete"},
+  mode: {name: "javascript", globalVars: true},
+  // mode: 'text/html',
+  autofocus: true,
+  lineNumbers: true,
+  tabSize: 2,
+  firstLineNumber: 0,
+  gutters: [],
+  fixedGutter: true,
+  styleSelectedText: true,
+  matchBrackets: true,
+  autoCloseBrackets: true,
+  lineWrapping: false,
+  statusBar: false,
+  addModeClass: true,
+  showTrailingSpace: true,
+  autoCloseTags: true,
+  readOnly: false, //"nocursor"
+}
